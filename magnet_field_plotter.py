@@ -233,6 +233,6 @@ if __name__ == '__main__':
     #system = get_polygon(n = 5)
     #system = get_filled_hexagon_unstable_circular_state()
     disp = displayer(system, r_max, nx, ny, Z_plane = Z_plane)
-    disp.plot_field_lines('plot_field_lines_test.png', show_result = True)
-    disp.plot_field_strength_contours('plot_field_strength_test.png', img_underlay='395c.jpg', img_extent=6, show_result = True)
+    disp.plot_field_lines('plots/plot_field_lines_test.png', show_result = True)
+    disp.plot_field_strength_contours('plots/plot_field_strength_test.png', img_underlay='source_images/395c.jpg', img_extent=6, show_result = True)
 
